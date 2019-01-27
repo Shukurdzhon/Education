@@ -1,0 +1,389 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name{
+  display:block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.descriprion{
+  margin-left: 9px;
+}
+
+.menu-logo{
+  display: flex;
+  align-items:center;
+}
+
+.avatar {
+  width: 57px;
+  height: 57px;
+  background:url('https://pp.userapi.com/c846320/v846320490/189262/ewHLTXHNPVY.jpg') no-repeat center;
+  background-size: 100%;
+  background-color: black;  
+  border-radius: 50%;
+}
+.menu_list {
+  display: flex;
+  align-items: center;
+}
+
+.menu_list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+
+.menu-button{
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+
+.menu_list a {
+text-decoration:none;
+display: inline-block;
+line-height: 1;
+color:#2b2a2c;
+position:relative;
+}
+
+.menu_list a:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #2b2a2c;
+    transition: width 0.4s ease-in-out;
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%)
+}
+
+.menu_list a:hover:after,
+.menu_list a:focus:after {
+    width: 100%;
+}
+
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+
+  background: url('https://data.whicdn.com/images/207206810/large.jpg') no-repeat right bottom;
+  background-size: 350px;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+
+.hero-social {
+  margin-top: 20px;
+}
+
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+
+.behance-bg {
+  background-color: #1869ff;
+}
+
+.facebook-bg {
+  background-color: #3a5898;
+}
+
+.instagram-bg {
+  background-color: #13578a;
+}
+
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons{
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+
+.button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #6a696b;
+
+}
+.projects {
+  padding: 97px 0;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align: stretch;
+}
+
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow:hidden;
+  box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 50px;
+}
+
+.project-card_image {
+  height: 300px;
+ }
+
+.landing-page {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3aa2/E8TU2hYKiag.jpg')  center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.second-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3aa9/Hn7qJMVJvno.jpg')  center;
+  background-size: cover%;
+  background-repeat: no-repeat;
+}
+
+.third-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3ab0/DAVQgH252TU.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fourth-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3ab7/ix_214a26Tg.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fifth-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3abe/bUl-F7Pk47M.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sixth-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3ac5/AGexRQehq0w.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.seventh-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3acc/WCoBEAW0B4g.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.eighth-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3ad3/oh-dYB_jsaE.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nineth-project {
+  background: url('https://pp.userapi.com/c850132/v850132122/c3ada/RVA-sjPoSHk.jpg') center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+
+.project-card_info{
+ padding: 19px 13px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.bio_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 100px;
+     background: url(https://i.pinimg.com/736x/1e/a4/c0/1ea4c0ac83f861f340dc84aba60a2dcf--manga-boy-manga-anime.jpg) no-repeat;
+background-size: 400px;
+  
+  
+}
+
+.bio_images {
+
+    #max-width: 414px;
+    #margin-left: 20px;
+}
+
+.bio-i {
+  width: 211px;
+  height: 34px;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 15px;
+}
+
+.text-p {
+  width: 471px;
+  height: 252px;
+  color: #717072;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.bio-button {
+  margin-top: 100px;
+}
+.footer {
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+}
+
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid  #413f41;
+  font-size: 14px;
+}
+
+.footer-social_link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-button {
+  border: 1px solid #8d8d8e;
+  border-radius: 50px;
+  padding: 8px 24px;
+  background-color: transporant;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .project.card{
+    width: 45%;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 760px ;
+  }
+  .project.card{
+    width: 45%;
+  }
+}
+@media (max-width: 760px) {
+  .description_small {
+    font-style: 10px;
+  }
+  .menu-list a {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 525px;
+    padding-top: 30px;
+  }
+  .container {
+    width: 95% ;
+  }
+  .project.card{
+    width: 95%;
+    margin: 50px auto;
+  }
+}
