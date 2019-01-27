@@ -272,13 +272,9 @@ background-size: 400px;
   
   
 }
-
-.bio_images {
-
-    #max-width: 414px;
-    #margin-left: 20px;
+.bio-text {
+  color: #2b2a2c;
 }
-
 .bio-i {
   width: 211px;
   height: 34px;
@@ -368,7 +364,7 @@ background-size: 400px;
     width: 45%;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .description_small {
     font-style: 10px;
   }
@@ -378,6 +374,10 @@ background-size: 400px;
   .hero {
     padding-bottom: 525px;
     padding-top: 30px;
+  }
+  
+  .bio_text {
+    padding-bottom: 525px;
   }
   .container {
     width: 95% ;
